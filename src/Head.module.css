@@ -1,0 +1,25 @@
+.mainContainer{
+    height: 80px;
+    width: 100%;
+}
+
+.bodyContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.rightContainer{
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid var(--bordersColor);
+    border-bottom: 1px solid var(--bordersColor);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size:30px ;
+    font-weight: bold;
+}
+.innerContainer{
+    margin-left: 20px;
+}

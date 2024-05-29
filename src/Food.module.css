@@ -1,0 +1,249 @@
+.mainContainer , .bodyContainer{
+    height: 100%;
+}
+
+.middleContainer{
+    height: calc(100% - 80px);
+    width: 100%;
+    display: flex;
+}
+
+.leftContainer{
+    width: 15%;
+}
+
+.centerContainer{
+    width: 60%;
+    border: 1px solid var(--bordersColor);
+    border-right: none;
+}
+
+.rightContainer{
+    width: 25%;
+    border-top: 1px solid var(--bordersColor);
+
+}
+
+.toggleHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodItem {
+    height: 40px;
+    margin: 10px 20px 0px 20px;
+    width: 90%;
+    font-size: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.logoutContainer{
+    height: 45px;
+    margin: 20px 30px 20px 30px;
+    padding-left: 10px;
+    width: 90%;
+    font-size: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.iconContainer{
+    height: 30px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.typeItem , .bookingItem , .categoryItem  {
+    height: 40px;
+    margin: 10px 20px 0px 20px;
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+.categoryItem{
+    margin-top: 20px;
+}
+
+
+.titleContainer{
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.tableContainer{
+    height: 510px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.innerTableContainer{
+    width: 90%;
+    height: 100%;
+    border: 1px solid  var(--bordersColor);
+    border-radius: 10px;
+
+}
+
+.horizontalContainer{
+    width: 100%;
+    border-bottom: 1px solid  var(--bordersColor);
+
+}
+
+.holderContainer{
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBottomContainer{
+    margin-top: 100px;
+    height: 80px;
+    width: 70%;
+}
+
+.innerBottomContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.numbersContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--previousNextButton);
+}
+.currentNumberDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: 1px solid  var(--bordersColor);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    color: var(--selectedPage);
+}
+
+.previousButton , .nextButton{
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background-color: inherit;
+    color: var(--previousNextButton);
+}
+.iconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textPreviousContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerRightContainer{
+    height:calc(100% - 110px);
+    width: calc(100% - 60px);
+
+    margin: 95px 40px 20px 20px;
+}
+.rightTitleContainer{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.rightInputContainer{
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.bodyDiv{
+    border: 1px solid  var(--bordersColor);
+    border-radius: 10px;
+}
+
+.rightTitleDiv{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--selectedPage);
+}
+
+.inputContainer{
+    height: 30px;
+    width: calc(100% - 20px);
+    border: 1px solid  var(--bordersColor);
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.inputContainer:focus{
+    outline: none;
+}
+
+.rightInnerButtonDiv{
+    margin: 50px 20px 30px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.createButton , .clearButton{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius:10px ;
+
+}
+
+.clearButton{
+    background-color: white;
+    color: black;
+}

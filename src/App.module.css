@@ -1,0 +1,10 @@
+html , body , .mainContainer{
+  height: 100%;
+}
+
+html {
+  --bordersColor: #cecece;
+  --previousNextButton: #676767;
+  --selectedPage:#353535;
+  --unSelectedPage:#525252;
+}

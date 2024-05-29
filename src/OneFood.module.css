@@ -1,0 +1,17 @@
+.mainContainer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyContainer{
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+
+}
